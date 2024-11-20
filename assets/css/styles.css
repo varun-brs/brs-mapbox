@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #1a4b84;
+  --chathams_blue: #1a4b84;
+  --tamarillo: #991e14;
+  --yellow_sea: #fead06;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 20vh;
+  height: 70vh;
+  width: 100vw;
+}
+
+.geocoder {
+  position: absolute;
+  z-index: 1;
+  width: 30vw;
+  left: 40%;
+  top: 10px;
+}
+
+.mapboxgl-ctrl-geocoder {
+  min-width: 100% !important;
+}
+
+#info {
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+  color: #222;
+  background: #fff;
+  margin-right: 20px;
+  margin-top: 80px;
+}
+
+#menu {
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: -90px;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
